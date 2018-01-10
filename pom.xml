@@ -95,6 +95,7 @@
                 </executions>
             </plugin>
         </plugins>
+<finalName>Root</finalName>
     </build>
 
 </project>
