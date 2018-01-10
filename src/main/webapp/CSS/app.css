@@ -1,0 +1,144 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Dec 6, 2017, 11:56:56 AM
+    Author     : PDirty
+*/
+
+form.webPoll {
+    background:#ededed;
+    behavior:url(PIE.php);
+    border:1px solid #bebebe;
+    -moz-border-radius:8px;
+    -webkit-border-radius:8px;
+    border-radius:8px;
+    -moz-box-shadow:#666 0 2px 3px;
+    -webkit-box-shadow:#666 0 2px 3px;
+    box-shadow:#666 0 2px 3px;
+    margin: 0 auto;
+    padding:6px;
+    position:relative;
+    width:400px;
+    background-image: url("background.png");
+    background-repeat: repeat-x;
+}
+
+form.webPoll fieldset {
+    background:#FCFAFC;
+    behavior:url(PIE.php);
+    border:1px solid #FCFAFC;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius:10px;
+    margin:20px;
+    padding:0; position:relative;
+}
+form.webPoll ul { 
+    behavior:url(PIE.php);
+    border:2px #bebebe solid;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius:10px;
+    font-family:arial;
+    font-size:14px;
+    list-style-type:none;
+    margin:0;
+    padding:10px 0;
+    position:relative;
+}
+
+form.webPoll li {
+    margin:0 16px;
+    overflow:auto;
+    padding:4px 0 6px;
+    position: relative;
+}
+
+label.poll_active { 
+    float:right;
+    width:90%;
+}
+
+label.poll_checkedactive { 
+    float:right;
+    width:90%;
+    color: red;
+    font-weight: bold;
+}
+
+form.webPoll .result { 
+    background: #d81b21;
+    background: -webkit-gradient(linear, left top, left bottom, from(#ff8080), to(#aa1317));
+    background: -moz-linear-gradient(top, #ff8080, #aa1317);
+    -pie-background: linear-gradient(#ff8080, #aa1317);
+    border:1px red solid;
+    -moz-border-radius:3px;
+    -webkit-border-radius:3px;
+    border-radius:3px;
+    clear:both;
+    color:#EFEFEF;
+    padding-left:2px;
+    behavior: url('PIE.php');
+}
+
+form.webPoll h4 {
+    color:#444;
+    font-family:arial;
+    font-size:16px;
+    font-weight:400;
+    line-height:1.4em;
+    margin:6px 4px 12px;
+    padding:0;
+}
+
+form.webPoll h3 {
+    color:#444;
+    font-family:arial;
+    font-size:14px;
+    font-weight:400;
+    line-height:1.4em;
+    margin:6px 4px 12px;
+    padding:0;
+    text-align: center;
+    font-weight: bold;
+}
+
+.buttons {
+    margin:8px 0 1px;
+    padding:0;
+    text-align: center;
+}
+.vote {
+    background: url("button.png") no-repeat transparent;
+    font-family: arial;
+    font-size: 18px;
+    height:40px;
+    width:122px;
+    -moz-border-radius:10px;
+    -webkit-border-radius:10px;
+    border-radius:10px;
+}
+
+.vote:hover { 
+    background-position:0 -21px;
+    cursor:pointer;
+}
+
+form.webPoll ul,li {
+    /*// IE6 specifiek //*/ zoom:1;
+}
+
+table {
+    width: 100%;
+}
+td {
+    height: 30px;
+}
+
+body {
+    background-image: url("background.png");
+    background-repeat: repeat-x;
+}
